@@ -1,26 +1,23 @@
 import React from "react";
-import list1 from "../project/assets/black-1.jpg";
-import list2 from "../project/assets/black-2.jpg";
-import list3 from "../project/assets/black-3.jpg";
-import list4 from "../project/assets/blue.jpg";
-import list5 from "../project/assets/brown-2.jpg";
-import list6 from "../project/assets/brown-3.jpg";
-import list7 from "../project/assets/brown.jpg";
-import list8 from "../project/assets/green.jpg";
-import list9 from "../project/assets/light-green-1.jpg";
-import list10 from "../project/assets/light-green-2.jpg";
-import list11 from "../project/assets/orange-1.jpg";
-import list12 from "../project/assets/pink-1.jpg";
-import list13 from "../project/assets/purple.jpg";
-import list14 from "../project/assets/white-1.jpg";
-import list15 from "../project/assets/white-2.jpg";
-import list16 from "../project/assets/white-3.jpg";
-import list17 from "../project/assets/white-4.jpg";
-import list18 from "../project/assets/white-5.jpg";
-import list19 from "../project/assets/white-6.jpg";
-
-
-const WishList = () => {
+import list1 from ".assets/black-1.jpg";
+import list2 from ".assets/black-2.jpg";
+import list3 from ".assets/black-3.jpg";
+import list4 from ".assets/blue.jpg";
+import list5 from ".assets/brown-2.jpg";
+import list6 from ".assets/brown-3.jpg";
+import list7 from ".assets/brown.jpg";
+import list8 from ".assets/green.jpg";
+import list9 from ".assets/light-green-1.jpg";
+import list10 from "./assets/light-green-2.jpg";
+import list11 from "./assets/orange-1.jpg";
+import list12 from "./assets/pink-1.jpg";
+import list13 from "./assets/purple.jpg";
+import list14 from "./assets/white-1.jpg";
+import list15 from "./assets/white-2.jpg";
+import list16 from "./assets/white-3.jpg";
+import list17 from "./assets/white-4.jpg";
+import list18 from "./assets/white-5.jpg";
+import list19 from "./assets/white-6.jpg";shList = () => {
   return (
     <div className="main-container">
       <div className="container">

@@ -2,12 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import blog1 from "../project/assets/electronic-1.jpg";
-import blog2 from "../project/assets/electronic-2.jpg";
-import blog3 from "../project/assets/electronic-3.jpg";
-import blog4 from "../project/assets/electronic-4.jpg";
-import blog5 from "../project/assets/electronic-5.jpg";
-import blog6 from "../project/assets/electronic-6.jpg";
+import blog1 from "./assets/electronic-1.jpg";
+import blog2 from "./assets/electronic-2.jpg";
+import blog3 from "./assets/electronic-3.jpg";
+import blog4 from "./assets/electronic-4.jpg";
+import blog5 from "./assets/electronic-5.jpg";
+import blog6 from "./assets/electronic-6.jpg";
 
 
 const BlogPost = () => {

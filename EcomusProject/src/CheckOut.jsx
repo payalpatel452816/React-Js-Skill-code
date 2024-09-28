@@ -1,8 +1,8 @@
 import React from "react";
-import order1 from '../project/assets/brown.jpg';
-import order2 from '../project/assets/kid-12.jpg';
-import order3 from '../project/assets/beige-2.jpg';
-import order4 from '../project/assets/orange-1.jpg';
+import order1 from './assets/brown.jpg';
+import order2 from './assets/kid-12.jpg';
+import order3 from './assets/beige-2.jpg';
+import order4 from './assets/orange-1.jpg';
 import './style.css';
 
 const CheckOut = () => {

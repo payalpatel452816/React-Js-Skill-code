@@ -2,14 +2,14 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img1 from "../project/assets/image1.jpg";
-import img2 from "../project/assets/image2.jpg";
-import img3 from "../project/assets/image3.jpg";
-import logo from "../project/assets/logo.svg";
-import img9 from "../project/assets/shop-6.jpg";
-import img10 from "../project/assets/electronic-7.jpg";
-import img11 from "../project/assets/collection-72.jpg";
-import img12 from "../project/assets/banner-collection-3.jpg";
+import img1 from "./assets/image1.jpg";
+import img2 from "./assets/image2.jpg";
+import img3 from "./assets/image3.jpg";
+import logo from "./assets/logo.svg";
+import img9 from "./assets/shop-6.jpg";
+import img10 from "./assets/electronic-7.jpg";
+import img11 from "./assets/collection-72.jpg";
+import img12 from "./assets/banner-collection-3.jpg";
 import { MdSupportAgent } from "react-icons/md";
 import { IoMdReturnLeft } from "react-icons/io";
 import { GrCreditCard } from "react-icons/gr";
@@ -20,8 +20,8 @@ import { FaPinterest } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import './style.css'
-import Trendig from "../project/Trendig";
-import SliderShop from "../project/SliderShop";
+import SliderShop from "./SliderShop";
+import Trendig from './Trendig';
 const Home = () => {
   const settings = {
     dots: true,

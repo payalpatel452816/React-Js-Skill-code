@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../project/assets/logo.svg";
+import logo from "./assets/logo.svg";
 import { NavLink } from 'react-router-dom'
 import { FaSearch } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
