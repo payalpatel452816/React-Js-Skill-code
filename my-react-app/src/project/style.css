@@ -1,0 +1,272 @@
+  .banner{
+    background-image: linear-gradient(90deg, #ffffff00, #ffb9b942, #ffffff00);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner h1{
+  color: #000;
+  font-size: 25px;
+
+}
+.banner p{
+  color: #555;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+  
+  /* SHOP CATEGORY STYLING */
+  .shop-img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .protection{
+    width: 100%;
+    height: auto;
+  }
+  .protection button{
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: end;
+  }
+  .protection h4{
+    font-weight: bold;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .protection p{
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  /* SHOP CATEGORY */
+  .shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: #f0f0f0; 
+  }
+
+
+  /*  SOME  PRODUCT */
+ .demo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+   
+}
+
+.demo1, .demo2 {
+  flex: 1;
+  min-width: 280px;
+  max-width: 45%;
+  box-sizing: border-box;
+  background: #fff; 
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  
+}
+
+.demo1 img, .demo2 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.demo1 h2 {
+  position: absolute;
+  top: 50%;
+   bottom: 5px;
+  font-size: 1.2rem;
+  color: #333; 
+  margin: 10px 0;
+}
+
+.demo1 h1, .demo2 h1 {
+  font-size: 2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.demo1 button, .demo2 button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #56e404; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+} 
+
+@media (max-width: 1200px) {
+  .demo1, .demo2 {
+    max-width: 48%;
+  }
+
+  .demo1 h1, .demo2 h1 {
+    font-size: 1.8rem;
+  }
+
+  .demo1 h2, .demo2 h2 {
+    font-size: 1.1rem;
+  }
+
+  .demo1 button, .demo2 button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .demo1, .demo2 {
+    max-width: 100%;
+  }
+
+  .demo1 h1, .demo2 h1 {
+    font-size: 1.6rem;
+  }
+
+  .demo1 h2, .demo2 h2 {
+    font-size: 1rem;
+  }
+
+  .demo1 button, .demo2 button {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .demo1 h1, .demo2 h1 {
+    font-size: 1.4rem;
+  }
+
+  .demo1 h2, .demo2 h2 {
+    font-size: 0.9rem;
+  }
+
+  .demo1 button, .demo2 button {
+    font-size: 0.8rem;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .demo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .demo1, .demo2 {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .demo1 h1, .demo2 h1 {
+    font-size: 1.2rem;
+  }
+
+  .demo1 h2, .demo2 h2 {
+    font-size: 0.8rem;
+  }
+
+  .demo1 button, .demo2 button {
+    font-size: 0.75rem;
+    padding: 6px 12px;
+  }
+} */
+/*  WISHLISS CSS STYLING */
+.main-container{
+    min-height: 100vh;
+    padding: 3rem 1rem;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.title{
+    margin-bottom: 3rem;
+}
+.title h1{
+    text-align: center;
+    opacity: 0.7;
+}
+.list-item{
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 6px 12px -7px rgba(171 171 171 1);
+  position: relative;
+  transition: box-shadow 0.4s ease-out;
+}
+
+.list:hover{
+    box-shadow: 0 10px 12px -7px rgba(171 171 171 1);
+}
+.list-img img{
+     width: 100%;
+     height: auto;
+}
+.list-img .rear{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity 0.4s ease-out;
+
+}
+
+.list-img:hover .rear{
+    opacity: 1;
+    z-index: 0;
+}
+.list-info{
+    padding: 1.2rem 1.2rem 2rem;
+
+}
+.list-grid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+fieldset {
+  border: 1px solid gray ; 
+  padding: 10px; 
+  display: inline-block; 
+}
+
+legend {
+  font-weight: bold; 
+  margin-bottom: 5px; 
+}
+.slider-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 1rem; /* Adjust margin as needed */
+}
+
+
+
