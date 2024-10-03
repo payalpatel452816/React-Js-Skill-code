@@ -1,11 +1,13 @@
 import './App.css'
-import AllImport from './AllImport'
+import AboutUs from './pages/AboutUs'
+//import AllImport from './pages/AllImport'
 
 function App() {
 
   return (
     <>
-      <AllImport/>
+    {/* <AllImport/> */}
+    <AboutUs/>
     </>
   )
 }

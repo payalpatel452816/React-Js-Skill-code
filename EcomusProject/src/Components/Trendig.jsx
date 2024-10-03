@@ -2,19 +2,19 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Tred1 from "./assets/electronic-8.png";
-import Tred2 from "./assets/electronic-9.jpg";
-import Tred3 from "./assets/electronic-10.png";
-import Tred4 from "./assets/electronic-11.png";
-import Tred5 from "./assets/electronic-12.png";
-import Tred6 from "./assets/electronic-13.png";
-import Tred7 from "./assets/electronic-14.png";
-import Tred8 from "./assets/electronic-15.png";
-import Tred9 from "./assets/electronic-16.jpg";
-import Tred10 from "./assets/electronic-17.jpg";
-import Tred11 from "./assets/electronic-18.jpg";
-import Tred12 from "./assets/electronic-19.jpg";
-import './tred.css'
+import Tred1 from "../assets/electronic-8.png";
+import Tred2 from "../assets/electronic-9.jpg";
+import Tred3 from "../assets/electronic-10.png";
+import Tred4 from "../assets/electronic-11.png";
+import Tred5 from "../assets/electronic-12.png";
+import Tred6 from "../assets/electronic-13.png";
+import Tred7 from "../assets/electronic-14.png";
+import Tred8 from "../assets/electronic-15.png";
+import Tred9 from "../assets/electronic-16.jpg";
+import Tred10 from "../assets/electronic-17.jpg";
+import Tred11 from "../assets/electronic-18.jpg";
+import Tred12 from "../assets/electronic-19.jpg";
+import '../css/tred.css'
 const Trendig = () => {
     const settings = {
         dots: true,

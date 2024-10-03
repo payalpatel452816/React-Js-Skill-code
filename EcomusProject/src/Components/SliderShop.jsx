@@ -1,9 +1,9 @@
 import React from 'react'
-import img1 from "./assets/shop-1.jpg";
-import img2 from "./assets/shop-2.jpg";
-import img3 from "./assets/shop-3.jpg";
-import img4 from "./assets/shop-4.png";
-import img5 from "./assets/shop-5.jpg";
+import img1 from "../assets/shop-1.jpg";
+import img2 from "../assets/shop-2.jpg";
+import img3 from "../assets/shop-3.jpg";
+import img4 from "../assets/shop-4.png";
+import img5 from "../assets/shop-5.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
