@@ -10,6 +10,8 @@ import StateVariable from './StateVariable'
 import ObjectState from './ObjectState'
 import ToggleState from './ToggleState'
 import StateWithArray from './StateWithArray'
+import CounterWithPreState from './CounterWithPreState'
+import MultiFieldForm from './MultiFieldForm'
 
 const Task = () => {
   return (
@@ -19,13 +21,14 @@ const Task = () => {
       {/* <SwitchCase/> */}
       {/* <AndOpe/> */}
       {/* <UserProfile/> */}
-       {/* <FormComponetns/> */}
+       <FormComponetns/>
        {/* <ListRendering/> */}
        {/* <StateVariable/> */}
        {/* <ObjectState/> */}
        {/* <ToggleState/> */}
-       <StateWithArray/>
-
+       {/* <StateWithArray/> */}
+       {/* <CounterWithPreState/> */}
+       {/* <MultiFieldForm/> */}
     </>
   )
 }

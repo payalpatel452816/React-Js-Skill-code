@@ -1,16 +1,29 @@
-import React from 'react'
+import React, { useState } from "react";
+import './style.css'
 
 const StateWithArray = () => {
-    const states = ['Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar', 'Chhattisgarh', 'Goa', 'Gujarat', 'Haryana', 'Himachal Pradesh', 'Jharkhand', 'Karnataka', 'Kerala', 'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha', 'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu', 'Telangana', 'Tripura', 'Uttarakhand', 'Uttar Pradesh', 'West Bengal']
+  const [items, setItems] = useState([]);
+
+  const addItems = () => {
+    setItems([
+      ...items,
+      {
+        id: items.length,
+        value: Math.floor(Math.random()*10)+1// generate unique id for each item
+      },
+    ]);
+  };
 
   return (
-    <div>
-        <h1>List of States in India</h1>
-        <ul>
-            {states.map(state => <li key={state}>{state}</li>)}
-        </ul>
+    <div className="array">
+      <button onClick={addItems}>Add Item</button>
+      <ul>
+        {items.map((item) => (
+          <li key={item.id}>{item.value}</li>
+        ))}
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default StateWithArray
+export default StateWithArray;

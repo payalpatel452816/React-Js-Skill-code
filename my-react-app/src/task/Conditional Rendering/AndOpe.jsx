@@ -1,9 +1,18 @@
 import React from 'react'
 
-const AndOpe = () => {
+const AndOpe = ({isLoading}) => {
+  const result = true && 'Hello World'
+console.log(result)
+// Hello World
+
+const result2 = false && 'Hello World'
+console.log(result2)
+// false
+
   return (
     <div>
-        <h1>And Operator</h1>
+        { isLoading && <p>Loading...</p> }
+        
         
     </div>
   )
