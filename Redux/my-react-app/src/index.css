@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .heading{
+        @apply text-center font-bold text-3xl text-lime-600  h-14 bg-black;
+    }
+} 

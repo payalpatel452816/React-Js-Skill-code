@@ -12,16 +12,22 @@ import ToggleState from './ToggleState'
 import StateWithArray from './StateWithArray'
 import CounterWithPreState from './CounterWithPreState'
 import MultiFieldForm from './MultiFieldForm'
+import ValidationForm from './formik/ValidationForm'
+import Recipe from './recipeapp/Recipe'
+import SignUp from './formik/SignUp'
+import ContryApp from './ContryApp'
+//import Impt from '../practice/authentication/Impt'
 
 const Task = () => {
   return (
     <>
-      {/* <IfElse/> */}
+      {/* <Recipe/> */}
+      <IfElse/>
       {/* <TernaryOperator/> */}
       {/* <SwitchCase/> */}
       {/* <AndOpe/> */}
       {/* <UserProfile/> */}
-       <FormComponetns/>
+       {/* <FormComponetns/> */}
        {/* <ListRendering/> */}
        {/* <StateVariable/> */}
        {/* <ObjectState/> */}
@@ -29,6 +35,11 @@ const Task = () => {
        {/* <StateWithArray/> */}
        {/* <CounterWithPreState/> */}
        {/* <MultiFieldForm/> */}
+      {/* <ValidationForm/> */}
+      {/* <SignUp/> */}
+      {/* <ContryApp/> */}
+      {/* <Impt/> */}
+     
     </>
   )
 }

@@ -2,11 +2,15 @@ import React from 'react';
 
 const Aboutus = () => {
     return (
-        <div className="about-us-container p-8 text-white bg-gray-800">
+        <div className="about-us-container p-8 text-white bg-[#36261b]">
             <h1 className="text-4xl font-bold mb-4">About Us</h1>
             <p className="text-lg mb-4">
                 Welcome to MISS CAFE, where we believe in the power of great coffee and community! Established in [Year], our cafe has been serving the local community with passion and love.
             </p>
+            <p>
+          At our coffee shop, we believe in quality and community. Join us for a cup of coffee,
+          a warm pastry, and a moment of peace in your busy day.
+        </p>
             <p className="text-lg mb-4">
                 Our mission is to provide a cozy space where friends can gather, share stories, and enjoy exceptional coffee and freshly made pastries. We source our beans from the best local roasters and our food is made with high-quality ingredients.
             </p>

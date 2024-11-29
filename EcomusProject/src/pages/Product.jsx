@@ -1,24 +1,29 @@
 import React from 'react'
-import ZoomSection from '../helpers/ZoomSection'
-import Footerwhite from '../Components/Footerwhite'
+import img1 from'../assets/product1.jpg';
+import { BsFillLightningChargeFill } from "react-icons/bs";
 
 
-const Products = () => {
+const Product = () => {
   return (
-    <div>
-      <div>
-        <ZoomSection />
+    <div className='container'>
+      <div className='xzoom-container'>
+        <img src={img1} alt=''/>
       </div>
-
-
-      {/* <div className='mt-12'>
-        <hr />
-        <Footerwhite />
-      </div> */}
+      <div className='decription'>
+         <h1>Cotton jersey top</h1>
+         <div className='best'>
+         <p>Best Seller</p>
+         <p><BsFillLightningChargeFill />Selling fast! 56 people have this in their carts.</p>
+         </div>
+         <div className='flex'>
+         <p>$8.00</p>
+         <p>$30.00</p>
+         <p>20% OFF</p>
+         </div>
+         
+      </div>
     </div>
-
-
   )
 }
 
-export default Products
+export default Product

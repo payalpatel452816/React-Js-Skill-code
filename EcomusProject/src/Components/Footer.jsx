@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from "../assets/logo.svg";
+import logo from "../assets/logo-white.svg";
 import { FaTiktok } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div>
         {/* FOOTER */}
-    <div class="bg-gray-600">
+    <div class="bg-black">
       <div class="max-w-screen-xl mx-auto px-4 sm:px-6  text-white flex flex-wrap justify-between">
         <div class="p-5">
           <div>
@@ -68,7 +68,7 @@ const Footer = () => {
           </a>
         </div>
         <div class="p-5">
-          <div class="text-xs uppercase text-gray-500 font-medium">
+          <div class="text-xs uppercase text-white font-medium">
             About Us
           </div>
 
@@ -86,7 +86,7 @@ const Footer = () => {
           </a>
         </div>
         <div class="p-5">
-          <div class="text-xs uppercase text-gray-500 font-medium">
+          <div class="text-xs uppercase text-white font-medium">
             Sign Up With Email
           </div>
           <div class="">

@@ -1,0 +1,277 @@
+/* src/page.css */
+
+.heading {
+    font-size: 2.5em; 
+    color: #5d4037; 
+    text-align: center; 
+    margin: 20px 0; 
+    font-family: 'Arial', sans-serif; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px;
+    background-color: #f8e1d4; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    width: 250px; /* Fixed width for cards */
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu-image {
+    width: 100%; /* Full width */
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Cover to maintain aspect ratio */
+  }
+  
+  .menu-details {
+    padding: 15px;
+  }
+  
+  .menu-details h2 {
+    margin: 10px 0 5px;
+    font-size: 1.5em;
+  }
+  
+  .menu-details p {
+    margin: 5px 0;
+    color: #555; /* Slightly muted text color */
+  }
+  
+  .menu-details span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .add-to-cart-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Full width */
+    transition: background-color 0.3s;
+    font-size: 1em; /* Responsive font size */
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #45a049;
+  }
+  
+  .cart {
+    margin-top: 40px;
+  }
+  
+  .cart h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .cart li {
+    margin: 5px 0;
+    font-size: 1.1em;
+  }
+  
+  
+  /* HOME PAGE */
+  /* src/HomePage.css */
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-header {
+    background-color: #f8e1d4;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .featured {
+    margin: 20px 0;
+  }
+  
+  .about {
+    margin: 20px 0;
+    font-style: italic;
+  }
+  
+  /* src/JobPage.css */
+.job-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .job-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .job-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  .job-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .apply-button {
+    background-color: #5d4037; /* Coffee color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .apply-button:hover {
+    background-color: #8d6e63; /* Lighter shade on hover */
+  }
+  /* hero-banner */
+.banner-image {
+  width: 100%;
+  height: auto; 
+  max-height: 400px; 
+  object-fit: cover;
+  display: block; 
+}
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7); 
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center; 
+  max-width: 90%; 
+}
+
+h1 {
+  font-size: 2.5rem; 
+  margin: 0 0 10px; 
+}
+
+p {
+  font-size: 1.2rem; 
+  margin: 0 0 20px; 
+}
+
+.shop-now-button {
+  background-color:#36261b; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.shop-now-button:hover {
+  background-color: #e6b800; 
+  transform: scale(1.05); 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .banner-content {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem; 
+  }
+
+  p {
+    font-size: 1rem; 
+  }
+
+  .shop-now-button {
+    padding: 8px 16px; 
+    font-size: 1rem; 
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-content {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem; 
+  }
+
+  p {
+    font-size: 0.9rem; 
+  }
+
+  .shop-now-button {
+    padding: 6px 12px; 
+    font-size: 0.9rem; 
+  }
+}
+/* ADD TO CART BADGES DESIGN */
+.cart-icon {
+  position: relative; 
+}
+
+.cart-icon span {
+  position: absolute; 
+  top: -5px;
+  right: -10px; 
+  background-color: white; 
+  color: red;
+  border-radius: 50%; 
+  width: 20px; 
+  height: 20px; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  font-weight: bold; 
+  font-size: 0.8rem; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

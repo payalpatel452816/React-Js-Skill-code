@@ -1,29 +1,32 @@
 import React from "react";
-import list1 from ".assets/black-1.jpg";
-import list2 from ".assets/black-2.jpg";
-import list3 from ".assets/black-3.jpg";
-import list4 from ".assets/blue.jpg";
-import list5 from ".assets/brown-2.jpg";
-import list6 from ".assets/brown-3.jpg";
-import list7 from ".assets/brown.jpg";
-import list8 from ".assets/green.jpg";
-import list9 from ".assets/light-green-1.jpg";
-import list10 from "./assets/light-green-2.jpg";
-import list11 from "./assets/orange-1.jpg";
-import list12 from "./assets/pink-1.jpg";
-import list13 from "./assets/purple.jpg";
-import list14 from "./assets/white-1.jpg";
-import list15 from "./assets/white-2.jpg";
-import list16 from "./assets/white-3.jpg";
-import list17 from "./assets/white-4.jpg";
-import list18 from "./assets/white-5.jpg";
-import list19 from "./assets/white-6.jpg";shList = () => {
+import list1 from "../assets/black-1.jpg";
+import list2 from "../assets/black-2.jpg";
+import list3 from "../assets/black-3.jpg";
+import list4 from "../assets/blue.jpg";
+import list5 from "../assets/brown-2.jpg";
+import list6 from "../assets/brown-3.jpg";
+import list7 from "../assets/brown.jpg";
+import list8 from "../assets/green.jpg";
+import list9 from "../assets/light-green-1.jpg";
+import list10 from "../assets/light-green-2.jpg";
+import list11 from "../assets/orange-1.jpg";
+import list12 from "../assets/pink-1.jpg";
+import list13 from "../assets/purple.jpg";
+import list14 from "../assets/white-1.jpg";
+import list15 from "../assets/white-2.jpg";
+import list16 from "../assets/white-3.jpg";
+import list17 from "../assets/white-4.jpg";
+import list18 from "../assets/white-5.jpg";
+import list19 from "../assets/white-6.jpg";
+import '../Components/WishList.css'
+
+const WishList = () => {
   return (
     <div className="main-container">
-      <div className="container">
-        <div className="title">
+        <div className="banner">
           <h1>YOUR WISHLIST</h1>
         </div>
+      <div className="container">
         <div className="list-grid">
           <div className="list-item">
             <div className="list-img">

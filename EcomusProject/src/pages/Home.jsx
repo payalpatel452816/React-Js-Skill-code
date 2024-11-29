@@ -16,6 +16,7 @@ import { BsBox } from "react-icons/bs";
 import Trendig from "../Components/Trendig";
 import '../css/style.css';
 import SliderShop from "../Components/SliderShop";
+import Footer from "../Components/Footer";
 const Home = () => {
   const settings = {
     dots: true,
@@ -145,8 +146,6 @@ const Home = () => {
   <Trendig/>
  </div>
  {/* BLOG POST */}
- 
-  
 
     {/* REVIEW PAGE */}
     {/* shiping infomation */}
@@ -184,7 +183,9 @@ const Home = () => {
 
     {/* End this  */}
     {/* FOOTER */}
-    
+    <section>
+      <Footer/>
+    </section>
   </div>
       
   );

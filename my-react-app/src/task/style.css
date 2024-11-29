@@ -19,8 +19,6 @@ ul {
 }
 
 li {
-    border: 1px solid #ccc;
-    border-radius: 8px;
     padding: 10px;
     text-align: center;
     
@@ -292,4 +290,3 @@ p {
     color: #555; 
     margin-top: 10px;
 }
-

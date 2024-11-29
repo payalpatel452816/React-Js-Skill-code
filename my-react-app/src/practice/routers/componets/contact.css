@@ -1,0 +1,139 @@
+/* Basic styling for the contact container */
+.contact-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  .contact-container h2 {
+    text-align: center;
+    color: #4a2c2a; /* Coffee color */
+  }
+  
+  /* Subheading and paragraph styles */
+  .contact-info {
+    margin: 20px 0;
+  }
+  
+  .contact-info h3 {
+    color: #4a2c2a; /* Coffee color */
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  /* Form styling */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin: 10px 0 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    background-color: #8b4513; /* Dark brown */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #704d30; /* Lighter brown */
+  }
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .contact-container {
+      padding: 15px; /* Adjust padding for small screens */
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+      font-size: 16px; /* Increase font size for better readability */
+    }
+  }
+  /*ADD TO CART PAGE */
+  /* Cart.css */
+.cart-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cart-container h2 {
+    text-align: center;
+    color: #4a2c2a; /* Coffee color */
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .cart-item input {
+    width: 50px;
+    margin-left: 10px;
+  }
+  
+  .cart-total {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .checkout-button {
+    padding: 10px;
+    background-color: #8b4513; /* Dark brown */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover {
+    background-color: #704d30; /* Lighter brown */
+  }
+  
+  

@@ -1,0 +1,48 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+}
+
+.loading {
+    font-weight: bold;
+}
+
+#recipeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipe-item {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 30%;
+}
+
+.recipe-image {
+    width: 100%;
+    border-radius: 8px;
+}
